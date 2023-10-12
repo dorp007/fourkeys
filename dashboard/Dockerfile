@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM grafana/grafana
+FROM grafana/grafana:10.1.5
 
 # Remove / disable these to require authentication
 ENV GF_AUTH_DISABLE_LOGIN_FORM "true"
