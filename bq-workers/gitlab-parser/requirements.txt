@@ -3,3 +3,4 @@ gunicorn==19.9.0
 google-cloud-bigquery==1.23.1
 git+https://github.com/GoogleCloudPlatform/fourkeys.git#egg=shared&subdirectory=shared
 protobuf==3.20.1
+werkzeug>=3.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
